@@ -1,0 +1,40 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    height: 200px;
+    justify-content: center;
+    padding: .8rem 1rem;
+    border-radius: 2rem;
+    box-shadow: 0 1px 6px 0 rgb(49 53 59 / 12%);
+    transition: scale ease-in-out 200ms;
+}
+
+.card:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.card img {
+    flex: 2;
+    height: 100px;
+    width: 100px;
+}
+
+.poke-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    font-weight: 600;
+
+}
+
+.poke-info .badge {
+    border-radius: 1rem;
+    background-color: wheat;
+    color: gray;
+    padding: .5rem .8rem;
+}
